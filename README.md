@@ -1,4 +1,4 @@
-#RSpec-Capybara sample test with PageObject
+# RSpec-Capybara sample test with PageObject
 
 A sample project using FF browser and show test steps on Wikipedia open-source website
 
