@@ -10,9 +10,9 @@ RSpec.configure do |config|
 end
 
 Capybara.configure do |config|
-  config.register_driver :firefox do |app|    #headless_firefox
+  config.register_driver :firefox do |app|
     capabilities = Selenium::WebDriver::Remote::Capabilities.firefox(
-        firefoxOptions: { args: %w(window-size=1920,1080)}  # %w(headless disable-gpu)
+        firefoxOptions: { args: ["--window-size=1920,1080"] } # ,"--headless"
     )
     Capybara::Selenium::Driver.new app,
                                    browser: :firefox,
@@ -20,5 +20,5 @@ Capybara.configure do |config|
   end
 
   config.default_max_wait_time = 3
-  config.javascript_driver = :firefox #headless_firefox
+  config.javascript_driver = :firefox
 end
