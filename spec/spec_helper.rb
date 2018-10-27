@@ -3,7 +3,6 @@ require 'capybara'
 require 'rspec'
 require 'selenium/webdriver'
 
-
 RSpec.configure do |config|
   config.include Capybara::DSL
   config.include Capybara::RSpecMatchers

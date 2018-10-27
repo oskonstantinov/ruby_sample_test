@@ -10,6 +10,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ruby_sample_test@Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test.rcov" NAME="Sample feature:  sample context sample test by Wikipedia: sample_test Coverage Results" MODIFIED="1540396274638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_test" />
+    <SUITE FILE_PATH="coverage/ruby_sample_test@first_sample__api_test_rb___sample_test.rcov" NAME="first_sample (api_test.rb): sample_test Coverage Results" MODIFIED="1540379352269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_test" />
     <SUITE FILE_PATH="coverage/sample_test@Sample___sample_sample1__sample_test.rcov" NAME="Sample:  sample sample1: sample_test Coverage Results" MODIFIED="1539011901960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_test" />
     <SUITE FILE_PATH="coverage/sample_test@Sample___sample_sample_test_by_Wikipedia__sample_test.rcov" NAME="Sample:  sample sample test by Wikipedia: sample_test Coverage Results" MODIFIED="1539069817398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_test" />
     <SUITE FILE_PATH="coverage/sample_test@Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test.rcov" NAME="Sample feature:  sample context sample test by Wikipedia: sample_test Coverage Results" MODIFIED="1539073651717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_test" />
@@ -19,36 +21,36 @@
       <file leaf-file-name="sample_test_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/tests/sample_test_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-column="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample_page_object.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/pageobjects/sample_page_object.rb">
+      <file leaf-file-name="api_test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/tests/api_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core_page_object.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/pageobjects/core_page_object.rb">
+      <file leaf-file-name="api_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/pageobjects/api_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="60">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
+                <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,11 +64,15 @@
       <list>
         <option value="$PROJECT_DIR$/spec/tests/test1_spec.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/tests/sample_test_spec.rb" />
         <option value="$PROJECT_DIR$/spec/pageobjects/sample_page_object.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/pageobjects/core_page_object.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/api_test_config.rb" />
+        <option value="$PROJECT_DIR$/spec/tests/sample_test_spec.rb" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/tests/api_test.rb" />
+        <option value="$PROJECT_DIR$/spec/pageobjects/api_helper.rb" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -127,10 +133,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/pageobjects" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/tests" />
+      <recent name="$PROJECT_DIR$/spec" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/spec/pageobjects" />
     </key>
   </component>
@@ -243,14 +255,44 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
+    <configuration name="first_sample (api_test.rb): sample_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="sample_test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/tests/api_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="/test_\d+_first_sample/" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+    </configuration>
     <list>
       <item itemvalue="RSpec.Sample:  sample sample1: sample_test" />
       <item itemvalue="RSpec.Sample:  sample sample test by Wikipedia: sample_test" />
       <item itemvalue="RSpec.Sample feature:  sample context sample test by Wikipedia: sample_test" />
+      <item itemvalue="Test::Unit/Shoulda/Minitest.first_sample (api_test.rb): sample_test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="RSpec.Sample feature:  sample context sample test by Wikipedia: sample_test" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.first_sample (api_test.rb): sample_test" />
         <item itemvalue="RSpec.Sample:  sample sample test by Wikipedia: sample_test" />
         <item itemvalue="RSpec.Sample:  sample sample1: sample_test" />
       </list>
@@ -275,49 +317,54 @@
       <workItem from="1539071138107" duration="2688000" />
       <workItem from="1539075094359" duration="672000" />
       <workItem from="1539937414625" duration="629000" />
+      <workItem from="1540289049563" duration="9000" />
+      <workItem from="1540289082639" duration="21000" />
+      <workItem from="1540377932275" duration="2884000" />
+      <workItem from="1540395962674" duration="466000" />
+      <workItem from="1540629413493" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 10h 59m 33s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 14h 18m 39s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 02m 09s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 14h 19m 08s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 02m 55s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 14h 19m 54s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 03m 22s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 14h 20m 15s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 11m 33s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 14h 21m 59s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 12m 29s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 14h 24m 30s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 14m 10s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 14h 31m 30s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 16m 51s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 18h 49m 53s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 18m 43s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 18h 50m 46s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.09 at 11h 27m 37s.xml">
+    <history-entry file="Sample_feature___sample_context_sample_test_by_Wikipedia__sample_test - 2018.10.24 at 18h 51m 21s.xml">
       <configuration name="Sample feature:  sample context sample test by Wikipedia: sample_test" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8910000" />
+    <option name="totallyTimeSpent" value="12371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005952" side_tool="true" weight="0.32905483" />
@@ -326,7 +373,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49940476" weight="0.32905483" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49940476" visible="true" weight="0.32905483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,6 +397,61 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spec/pageobjects/sample_page_object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pageobjects/core_page_object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/tests/sample_test_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pageobjects/sample_page_object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pageobjects/core_page_object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/tests/sample_test_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -548,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/rspec-core-3.7.1/lib/rspec/core/memoized_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -578,17 +673,62 @@
     <entry file="file://$PROJECT_DIR$/spec/pageobjects/drag_and_drop_helper.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.ruby-version">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pageobjects/core_page_object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/capybara-2.18.0/lib/capybara.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+        <state relative-caret-position="330">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/pageobjects/api_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/tests/api_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/tests/sample_test_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-column="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -596,16 +736,9 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/pageobjects/core_page_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
