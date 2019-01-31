@@ -47,8 +47,8 @@ class CorePageObject
 
   # based on js helper and jquery
   def drag_and_drop_js(source, target)
-    jquery = Rails.root.join('spec/pageobjects/jquery-3.3.1.min.js').read
-    dnd = Rails.root.join('spec/pageobjects/drag_and_drop_helper.js').read
+    jquery = Rails.root.join('spec/js_helpers/jquery-3.3.1.min.js').read
+    dnd = Rails.root.join('spec/js_helpers/drag_and_drop_helper.js').read
 
     Capybara.current_session.driver.browser.execute_script(jquery)
     Capybara.current_session.driver.browser.execute_script(dnd)

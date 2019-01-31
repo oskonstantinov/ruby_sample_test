@@ -1,6 +1,6 @@
 require 'rspec'
 require 'airborne'
-require_relative '../pageobjects/api_helper'
+require_relative '../api_helper'
 
 describe 'sample' do
   it 'first_sample' do
