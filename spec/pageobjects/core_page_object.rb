@@ -16,7 +16,8 @@ class CorePageObject
     fill_in locator, with: my_text
   end
 
-  def find_element_with_text_by_parent_xpath_and_click(parent, locator, my_text)  # for similar elements: find parent, inside parent find needed element
+  # for similar elements: find parent, inside parent find needed element
+  def find_element_with_text_by_parent_xpath_and_click(parent, locator, my_text)
     within(:xpath, parent) do
       find(locator, text: my_text).click
     end
@@ -32,10 +33,9 @@ class CorePageObject
     expect(page).to have_css(locator, text: my_text), error_message
   end
 
-  def scroll_to(locator) # universal scroll to element
-    script = <<-JS
-      arguments[0].scrollIntoView(true);
-    JS
+  # universal scroll to element
+  def scroll_to(locator)
+    script = 'arguments[0].scrollIntoView(true);'
 
     Capybara.current_session.driver.browser.execute_script(script, locator.native)
   end
@@ -45,29 +45,13 @@ class CorePageObject
     find(locator).click
   end
 
-  def drag_and_drop_js(source, target) # based on js helper and jquery
+  # based on js helper and jquery
+  def drag_and_drop_js(source, target)
+    jquery = Rails.root.join('spec/pageobjects/jquery-3.3.1.min.js').read
+    dnd = Rails.root.join('spec/pageobjects/drag_and_drop_helper.js').read
 
-    jquery_filepath=File.dirname(__FILE__)+"/jquery-3.3.1.min.js"
-    jquery_file= File.new(jquery_filepath,"r")
-    js_filepath=File.dirname(__FILE__)+"/drag_and_drop_helper.js"
-    js_file= File.new(js_filepath,"r")
-    java_script=""
-    jquery_script=""
-
-    while (line=js_file.gets)
-      java_script+=line
-    end
-
-    while (line=jquery_file.gets)
-      jquery_script+=line
-    end
-
-    js_file.close
-
-    Capybara.current_session.driver.browser.execute_script(jquery_script + java_script + "$('#{source}').simulateDragDrop({ dropTarget: '#{target}'});")
-
-  rescue Exception => e
-    puts "ERROR :" + e.to_s
-
+    Capybara.current_session.driver.browser.execute_script(jquery)
+    Capybara.current_session.driver.browser.execute_script(dnd)
+    Capybara.current_session.driver.browser.execute_script("$('#{source}').simulateDragDrop({ dropTarget: '#{target}'});")
   end
 end
