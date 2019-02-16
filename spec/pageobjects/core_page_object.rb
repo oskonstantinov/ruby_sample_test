@@ -1,4 +1,4 @@
-require 'spec_helper'
+require '../../spec/spec_helper'
 
 class CorePageObject
   include Capybara::DSL
@@ -31,6 +31,10 @@ class CorePageObject
 
   def expect_to_have_css_with_text(locator, my_text, error_message)
     expect(page).to have_css(locator, text: my_text), error_message
+  end
+
+  def expect_to_have_css(locator, error_message)
+    expect(page).to have_css(locator), error_message
   end
 
   # universal scroll to element
