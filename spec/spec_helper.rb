@@ -12,12 +12,10 @@ end
 
 Capybara.configure do |config|
   config.register_driver :firefox do |app|
-    capabilities = Selenium::WebDriver::Remote::Capabilities.firefox(
-        firefoxOptions: { args: ['--window-size=1920,1080'] } # ,'--headless'
-    )
-    Capybara::Selenium::Driver.new app,
-                                   browser: :firefox,
-                                   desired_capabilities: capabilities
+    options = ::Selenium::WebDriver::Firefox::Options.new
+    options.args << '--window-size=1920,1080'
+    options.args << '--headless'
+    Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
   end
 
   config.default_max_wait_time = 3
