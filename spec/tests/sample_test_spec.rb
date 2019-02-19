@@ -16,14 +16,12 @@ feature 'Sample feature: ', type: :feature do
   context 'sample context' do
 
     scenario 'change language to deutsch', js: true do
-
       visit '/MainPage'
       main_page_object.scroll_to_deutsch_link_and_click
       main_page_object.expect_deutsch_welcome_text
     end
 
     scenario 'search the article', js: true do
-
       visit '/MainPage'
       main_page_object.enter_search_request
       main_page_object.click_on_search_button
@@ -32,7 +30,6 @@ feature 'Sample feature: ', type: :feature do
     end
 
     scenario 'check the image', js: true do
-
       visit '/Software_bug'
       article_page_object.scroll_to_img_and_click
       article_page_object.expect_x_button
