@@ -6,15 +6,15 @@ require 'selenium/webdriver'
 RSpec.configure do |config|
   config.include Capybara::DSL
   config.include Capybara::RSpecMatchers
-  config.color = true
-  config.formatter = :documentation
+  config.formatter = :html
+  config.output_stream = File.open('results/sample_test_result.html', 'w')
 end
 
 Capybara.configure do |config|
   config.register_driver :firefox do |app|
     options = ::Selenium::WebDriver::Firefox::Options.new
-    options.args << '--window-size=1920,1080'
-    options.args << '--headless'
+    options.add_argument ('--window-size=1920,1080')
+    options.add_argument ('--headless')
     Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
   end
 

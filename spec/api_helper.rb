@@ -1,3 +1,8 @@
+RSpec.configure do |config|
+  config.formatter = :html
+  config.output_stream = File.open('results/api_test_result.html', 'w')
+end
+
 Airborne.configure do |config|
   config.base_url = 'https://jsonplaceholder.typicode.com'
 end
