@@ -8,6 +8,10 @@ RSpec.configure do |config|
   config.include Capybara::RSpecMatchers
   config.formatter = :html
   config.output_stream = File.open('results/sample_test_result.html', 'w')
+
+  config.after :each do
+    Capybara.current_session.cleanup!
+  end
 end
 
 Capybara.configure do |config|

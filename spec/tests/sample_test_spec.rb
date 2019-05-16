@@ -8,11 +8,6 @@ feature 'Sample feature: ', type: :feature do
   let(:search_page_object) { SearchPageObject.new }
   let(:article_page_object) { ArticlePageObject.new }
 
-  after :each do
-    page.driver.browser.manage.delete_all_cookies
-    page.driver.quit
-  end
-
   context 'sample context' do
 
     scenario 'change language to deutsch', js: true do
